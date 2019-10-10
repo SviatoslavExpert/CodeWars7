@@ -15,3 +15,11 @@ public class Kata {
         return builder.toString();
     }
 }
+
+/*    static String testing(final String initial) {
+        if (initial == null) {
+            return "";
+        }
+        return initial.replaceAll("[^TBHtbh]", "");
+    }
+*/
