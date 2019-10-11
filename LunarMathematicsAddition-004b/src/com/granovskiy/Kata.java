@@ -1,7 +1,5 @@
 package com.granovskiy;
 
-import java.util.Arrays;
-
 public class Kata {
     public static long add(long number1, long number2) {
         int lengthOne = String.valueOf(number1).length();
