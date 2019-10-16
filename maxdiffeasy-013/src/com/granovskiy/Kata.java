@@ -10,10 +10,13 @@ public class Kata {
             if (lst[i] < min) min = lst[i];
         }
         return max - min;
+        //     return lst.length == 0 ? 0 :
+        //      Arrays.stream(lst).max().getAsInt() - Arrays.stream(lst).min().getAsInt();
     }
 
     public static void main(String[] args) {
         System.out.println(maxDiff(new int[]{ 1, 2, 3, 4, 5, 5, 4 }));
         System.out.println(maxDiff(new int[]{}));
     }
+    //  Done!
 }
