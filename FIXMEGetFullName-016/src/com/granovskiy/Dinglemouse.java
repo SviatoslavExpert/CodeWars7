@@ -15,6 +15,7 @@ public class Dinglemouse {
         if (firstName.length() == 0 && lastName.length() > 0) return lastName;
         if (firstName.length() > 0 && lastName.length() == 0) return firstName;
         return firstName + " " + lastName;
+        // return (firstName + " " + lastName).trim();
     }
 
     public static void main(String[] args) {
