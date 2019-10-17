@@ -21,3 +21,5 @@ public class Kata {
         System.out.println(solve("Code"));
     }
 }
+
+// Done!

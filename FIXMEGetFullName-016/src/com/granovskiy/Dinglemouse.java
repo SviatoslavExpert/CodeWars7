@@ -1,17 +1,19 @@
 package com.granovskiy;
 
 public class Dinglemouse {
+
     private String firstName;
     private String lastName;
-    //private String fullName;
 
     public Dinglemouse(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
-        //fullName = firstName + " " + lastName;
     }
 
     public String getFullName() {
+        if (firstName.length() == 0 && lastName.length() == 0) return "";
+        if (firstName.length() == 0 && lastName.length() > 0) return lastName;
+        if (firstName.length() > 0 && lastName.length() == 0) return firstName;
         return firstName + " " + lastName;
     }
 
