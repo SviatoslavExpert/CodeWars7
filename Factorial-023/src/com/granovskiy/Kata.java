@@ -6,6 +6,7 @@ public class Kata {
         if (n == 0 || n == 1) return 1;
         n = n * factorial(n - 1);
         return n;
+        //  return n <= 1 ? 1 : n * factorial(n - 1);
     }
 
     public static void main(String[] args) {
