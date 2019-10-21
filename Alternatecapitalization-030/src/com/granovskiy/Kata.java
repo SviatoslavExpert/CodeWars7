@@ -25,8 +25,4 @@ public class Kata {
         capitalize("abcdef");
     }
 }
-
-//String result1 = Arrays.toString(charsOne);
-//String result2 = Arrays.toString(charsTwo);
-//System.out.println(Arrays.toString(charsOne) + " " + Arrays.toString(charsTwo));
-        //System.out.println(Arrays.toString(result));
+//  Done!
