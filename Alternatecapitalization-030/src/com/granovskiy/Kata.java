@@ -1,7 +1,5 @@
 package com.granovskiy;
 
-import java.util.Arrays;
-
 public class Kata {
     public static String[] capitalize(String s){
         String[] charsOne = s.split("");
