@@ -13,6 +13,7 @@ public class Kata {
             }
         }
         return counterMale > counterFemale;
+        //  return IntStream.of(l).sum() > 0;
     }
 
     public static void main(String[] args) {
