@@ -9,6 +9,7 @@ public class Kata {
             return strEnding.equals(ending);
         }
         return false;
+        //  return str.endsWith(ending);
     }
 
     public static void main(String[] args) {
