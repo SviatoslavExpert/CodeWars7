@@ -4,9 +4,13 @@ public class Kata {
     public static boolean solution(String str, String ending) {
         int endingLength = ending.length();
         int stringLength = str.length();
-        if (str.substring(stringLength - endingLength, stringLength).equals(ending)) return true;
+        if (stringLength >= endingLength) {
+            String strEnding = str.substring(stringLength - endingLength, stringLength);
+            return strEnding.equals(ending);
+        }
         return false;
     }
+
     public static void main(String[] args) {
         System.out.println(solution("abc", "c"));
         System.out.println(solution("abc", "bc"));
@@ -14,5 +18,6 @@ public class Kata {
         System.out.println(solution("fails", "ails"));
         System.out.println(solution("fails", "fail"));
         System.out.println(solution("-123", "23"));
+        System.out.println(solution("samurai", "ai"));
     }
 }
