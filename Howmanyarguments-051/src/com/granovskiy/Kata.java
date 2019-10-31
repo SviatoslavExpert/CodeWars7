@@ -9,6 +9,7 @@ public class Kata {
             counter++;
         }
         return counter;
+        // return args.length;
     }
 
     public static void main(String[] args) {
