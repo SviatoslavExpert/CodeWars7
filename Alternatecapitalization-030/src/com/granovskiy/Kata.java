@@ -17,7 +17,6 @@ public class Kata {
         String delimiter = "";
         String result1 = String.join(delimiter, charsOne);
         String result2 = String.join(delimiter, charsTwo);
-        //String[] result = new String[] {result1, result2};
         return new String[] {result1, result2};
     }
 
