@@ -7,6 +7,7 @@ public class Checking {
         } else if (a > Double.MAX_VALUE || a < Double.MIN_VALUE
                     || b > Double.MAX_VALUE || b < Double.MIN_VALUE
                     || c > Double.MAX_VALUE || c < Double.MIN_VALUE) {
+            System.out.println("Число занадто велике.");
         } else {
             Calculating.calculate(a, b, c);
         }
