@@ -14,7 +14,6 @@ public class Kata {
             lines.set(i, builder.toString());
             //builder.delete(i, i + 1);
         }
-        //Arrays.toString(lines);
         return lines;
     }
 
