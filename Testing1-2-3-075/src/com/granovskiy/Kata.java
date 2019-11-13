@@ -12,7 +12,6 @@ public class Kata {
             builder.append(i + 1 + ": ");
             builder.append(lines.get(i));
             lines.set(i, builder.toString());
-            //builder.delete(i, i + 1);
         }
         return lines;
     }
